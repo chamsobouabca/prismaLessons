@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./typings", // Include your custom typings directory
+      "./node_modules/@types" // Include default @types directory
+    ]
+  },
+  "include": [
+    "src/**/*.ts", // Include all TypeScript files in the src directory
+    "typings/**/*.d.ts" // Include custom typings files
+  ],
+  "exclude": ["node_modules"]
+}
